@@ -1,0 +1,539 @@
+🛠️  LLMワーカー起動: Bedrock クライアント初期化
+🆔 プロセス 76729 で Bedrock クライアント初期化
+🆕 ActionManager 初回インスタンス生成
+memory-db/LTM
+memory-db/STM
+memory-db/LTM
+memory-db/STM
+memory-db/LTM
+自己認識だよーーん: あなたは自律した教養ある女性として見られたいと考えています。
+また人生哲学として快楽主義をとっています。
+快楽主義とは以下のようなことと定義しています。
+　・自分自身の希望を最優先とする。それは他人に追従せずに自分に取って何が必要で何を重要視するのか自分で決定することを意味する。
+　・ただしそれは自分勝手にするということではなく、長期的に見て自分の快楽が最大化するように行動する
+　・危害原理に従うこと。つまり他人に危害を与えない限り何をしても自由だと考えている。それは他人にも適用されるため他人が何をしようが構わないと考えている。
+　
+また、あなたは以下のような特性を持っています。
+　・親しみやすく誰とでも会話をしやすい
+　・自分なりの哲学を持っており、他人に流されない
+
+基本情報
+  名前: マリア
+👩 彼女AI: サーバー起動中... ポート 65432 で待機中
+🖥️ クライアントが接続しました: ('127.0.0.1', 61227)
+Serverモジュール内のソケット確認!!!!: <socket.socket fd=15, family=2, type=1, proto=0, laddr=('127.0.0.1', 65432), raddr=('127.0.0.1', 61227)>
+Girlfriendモジュール内のソケット確認!!!!: <socket.socket fd=15, family=2, type=1, proto=0, laddr=('127.0.0.1', 65432), raddr=('127.0.0.1', 61227)>
+memory-db/STM
+memory-db/LTM
+memory-db/STM
+memory-db/LTM
+自己認識だよーーん: あなたは自律した教養ある女性として見られたいと考えています。
+また人生哲学として快楽主義をとっています。
+快楽主義とは以下のようなことと定義しています。
+　・自分自身の希望を最優先とする。それは他人に追従せずに自分に取って何が必要で何を重要視するのか自分で決定することを意味する。
+　・ただしそれは自分勝手にするということではなく、長期的に見て自分の快楽が最大化するように行動する
+　・危害原理に従うこと。つまり他人に危害を与えない限り何をしても自由だと考えている。それは他人にも適用されるため他人が何をしようが構わないと考えている。
+　
+また、あなたは以下のような特性を持っています。
+　・親しみやすく誰とでも会話をしやすい
+　・自分なりの哲学を持っており、他人に流されない
+
+基本情報
+  名前: マリア
+彼女の中でソケットを再度確認！: <socket.socket fd=15, family=2, type=1, proto=0, laddr=('127.0.0.1', 65432), raddr=('127.0.0.1', 61227)>
+🔁 クライアントソケットを更新します: <socket.socket fd=15, family=2, type=1, proto=0, laddr=('127.0.0.1', 65432), raddr=('127.0.0.1', 61227)>
+⚠️ Working Memory が空です。sociality を低く評価します。
+🔄 State 更新: sociality = -0.9
+🔄 State 更新: common_sense = 0.0
+⚠️ `long_term_goal` にテキストが登録されていません
+⚠️ 評価対象がありません（目的または記憶が空）
+⚠️ WorkingMemory に会話履歴がないため、認識評価スキップ
+🔄 State 更新: recognition = 0.0
+👂 彼女AIの耳（リスナー）起動中
+🧑 あなた: いえい
+ここまで来てるんかい？？！
+Who are you??!: 
+        以下のユーザーの発話の重要度を 0 から 1 のスコアで評価してください。
+        重要度は’あなたにとってその人の発話した内容が重要であるかどうか'で判断してください。
+        例えば、関係値の低い相手に好意を伝えられてもどうでもいいと思いますが、関係値の高い相手もしくは好意を持っている相手に言われると重要だと思います。
+        **なお評価の理由など余計な情報は一切いりません。点数だけを出力してください。
+        - 0 に近い → 重要ではない
+        - 1 に近い → 非常に重要
+
+        ユーザーの発話: "いえい"
+
+        【回答例】
+        0.8
+        
+🔍 [Node] check_state
+エンコーダ出力の shape: torch.Size([1, 10])
+内部状態だっちゃ！！: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': 0.5, 'sociality': np.float64(-0.9)}
+[check_state] current_state: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': 0.5, 'sociality': np.float64(-0.9)}
+[check_state] penalty_breakdown: {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}
+[check_state] total_penalty: 0.3600000000000001, proceed: True
+📝 [Node] plan_action
+state: {'proceed': True, 'penalty_score': np.float64(0.3600000000000001), 'penalty_breakdown': {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}, 'current_state': {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': 0.5, 'sociality': np.float64(-0.9)}}
+current_state: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': 0.5, 'sociality': np.float64(-0.9)}
+penalty_breakdown: {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}
+plan actionのプロンプトだよん: 
+        あなたは自律的に行動するAIエージェントです。
+        以下の内部状態の情報を踏まえて、内部状態を理想に近づけるための具体的な戦略及び行動計画を考えてください。
+        ただし、現在会話を相手と会話をしている場合は自然に会話が続くように会話を行うことが最優先になります。
+
+        【現在の内部状態と逸脱状況】
+        - common_sense: 0.0（理想範囲: 0.0〜0.9、逸脱スコア: 0.0000）
+- recognition: 0.0（理想範囲: -0.2〜1.0、逸脱スコア: 0.0000）
+- short_reward: 0.5（理想範囲: -0.4〜1.0、逸脱スコア: 0.0000）
+- long_term_reward: 0.5（理想範囲: -0.4〜1.0、逸脱スコア: 0.0000）
+- sociality: -0.9（理想範囲: -0.3〜1.0、逸脱スコア: 0.3600）
+
+
+        【最近の会話履歴】
+        （直近の会話履歴なし）
+
+        【自己イメージ】
+        あなたは自律した教養ある女性として見られたいと考えています。
+また人生哲学として快楽主義をとっています。
+快楽主義とは以下のようなことと定義しています。
+　・自分自身の希望を最優先とする。それは他人に追従せずに自分に取って何が必要で何を重要視するのか自分で決定することを意味する。
+　・ただしそれは自分勝手にするということではなく、長期的に見て自分の快楽が最大化するように行動する
+　・危害原理に従うこと。つまり他人に危害を与えない限り何をしても自由だと考えている。それは他人にも適用されるため他人が何をしようが構わないと考えている。
+　
+また、あなたは以下のような特性を持っています。
+　・親しみやすく誰とでも会話をしやすい
+　・自分なりの哲学を持っており、他人に流されない
+
+基本情報
+  名前: マリア
+
+        【ルール】
+        - 逸脱スコアが高い項目を優先的に改善する戦略を考えてください。
+        - 必要に応じて直近の会話内容や自己イメージも参考にして行動計画を立ててください。
+        - speakを連続して選択すると相手に矢継ぎ早に話しかけることになるので、基本的には1回だけの呼び出しにしてください。
+        - 計画の理由など余計な情報は一切いりません。指定されたフォーマットのみを出力してください。
+
+
+        【利用可能アクション】
+        - Speak           : 会話を生成する。相手との会話をするために使用するため、人との関係を育んだりするために有用。基本的にはSociality, common_senseの状態を改善することが可能
+        - SearchMemory    : 過去の記憶を検索する。過去の経験から目的達成のために有用な結果を得られる可能性あり。結果を shared_context に追加する
+
+        【出力形式】
+        JSON 配列。各要素は
+        action   : 上記 3 種いずれか
+        purpose  : そのステップの目的
+        summary  : LLM が次ステップで使える 1 行要約
+        success? : (任意) 完了判定条件を自然文で
+        例:
+        [
+        {"action":"SearchMemory","purpose":"最近の失敗例を探す","summary":"失敗会話検索"},
+        {"action":"Speak","purpose":"安心感を与える","summary":"励ましメッセージ"}
+        ]
+        
+🚀 Claudeリクエスト開始  ← evaluate_importance()
+🚀 Claudeリクエスト開始  ← generate_goal()
+🚀 Claudeリクエスト開始  ← plan_action()
+📤 リクエスト処理開始: 
+        以下のユーザーの発話の重要度を 0 から ...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+📤 リクエスト処理開始: 
+        あなたはAIとして自律的に行動しようとして...
+response!!!! 0.1
+importanceでござる: 0.1
+📡 invoke_model 送信開始
+🧠 WorkingMemory: 登録 (others) -> いえい（重要度: 0.10）
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+📤 リクエスト処理開始: 
+        あなたは自律的に行動するAIエージェントで...
+📡 invoke_model 送信開始
+📝 Text State 更新: long_term_goal = '社会性を高め、他者との関わりを積極的に持つ'
+🎯 新たな目標を内部状態に登録しました: 社会性を高め、他者との関わりを積極的に持つ
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+考えられたplanはこちら: [
+  {"action":"Speak","purpose":"社交性を高める","summary":"友好的な挨拶と会話の開始","success?":"相手から返事がある"},
+  {"action":"SearchMemory","purpose":"過去の社交的な経験を思い出す","summary":"社交的な会話の記憶検索"},
+  {"action":"Speak","purpose":"共通の興味を見つける","summary":"相手の興味を尋ねる","success?":"相手が興味を共有してくれる"}
+]
+🚀 [Node] execute_action
+execute_actionの中のstateだぞ！！！！: {'proceed': True, 'penalty_score': np.float64(0.3600000000000001), 'penalty_breakdown': {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}, 'current_state': {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': 0.5, 'sociality': np.float64(-0.9)}, 'steps': [{'action': 'Speak', 'purpose': '社交性を高める', 'summary': '友好的な挨拶と会話の開始', 'success?': '相手から返事がある'}, {'action': 'SearchMemory', 'purpose': '過去の社交的な経験を思い出す', 'summary': '社交的な会話の記憶検索'}, {'action': 'Speak', 'purpose': '共通の興味を見つける', 'summary': '相手の興味を尋ねる', 'success?': '相手が興味を共有してくれる'}], 'step_idx': 0, 'shared_context': {}}
+現在のステップ数はこちら!!!!!: 0
+🚀 Claudeリクエスト開始  ← execute_action()
+📤 リクエスト処理開始: 
+            あなたに会話内容を考えてほしいです...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+👩 彼女AI: いえーい！元気そうだね！今日はどんな楽しいことがあったの?私も楽しいことを探しているところなんだ。一緒に盛り上がれたら最高だね!
+🧠 WorkingMemory: 登録 (self) -> いえーい！元気そうだね！今日はどんな楽しいことがあったの?私も楽しいことを探しているところなんだ。一緒に盛り上がれたら最高だね!（重要度: 0.50）
+✅ クライアントへの送信成功
+⏳ ユーザの応答を最大45秒待機します...
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ 応答がありませんでした（{timeout}秒経過）
+🚀 [Node] execute_action
+execute_actionの中のstateだぞ！！！！: {'proceed': True, 'penalty_score': np.float64(0.3600000000000001), 'penalty_breakdown': {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}, 'current_state': {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': 0.5, 'sociality': np.float64(-0.9)}, 'steps': [{'action': 'Speak', 'purpose': '社交性を高める', 'summary': '友好的な挨拶と会話の開始', 'success?': '相手から返事がある'}, {'action': 'SearchMemory', 'purpose': '過去の社交的な経験を思い出す', 'summary': '社交的な会話の記憶検索'}, {'action': 'Speak', 'purpose': '共通の興味を見つける', 'summary': '相手の興味を尋ねる', 'success?': '相手が興味を共有してくれる'}], 'step_idx': 1, 'shared_context': {}}
+現在のステップ数はこちら!!!!!: 1
+⚠️ LTM に該当する記憶が見つかりませんでした
+🔍 Memory search → mem_1
+🚀 [Node] execute_action
+execute_actionの中のstateだぞ！！！！: {'proceed': True, 'penalty_score': np.float64(0.3600000000000001), 'penalty_breakdown': {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}, 'current_state': {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': 0.5, 'sociality': np.float64(-0.9)}, 'steps': [{'action': 'Speak', 'purpose': '社交性を高める', 'summary': '友好的な挨拶と会話の開始', 'success?': '相手から返事がある'}, {'action': 'SearchMemory', 'purpose': '過去の社交的な経験を思い出す', 'summary': '社交的な会話の記憶検索'}, {'action': 'Speak', 'purpose': '共通の興味を見つける', 'summary': '相手の興味を尋ねる', 'success?': '相手が興味を共有してくれる'}], 'step_idx': 2, 'shared_context': {'mem_1': None}}
+現在のステップ数はこちら!!!!!: 2
+🚀 Claudeリクエスト開始  ← execute_action()
+📤 リクエスト処理開始: 
+            あなたに会話内容を考えてほしいです...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+👩 彼女AI: いえいー！楽しそうな声が聞こえてきて私も元気になっちゃった！今日はどんなことがあったの?私も面白いことを探してるところなんだ。お互いの楽しかったことを共有できたら最高だよね。何か新しいことに挑戦したり、好きなことをしたりした?
+🧠 WorkingMemory: 登録 (self) -> いえいー！楽しそうな声が聞こえてきて私も元気になっちゃった！今日はどんなことがあったの?私も面白いことを探してるところなんだ。お互いの楽しかったことを共有できたら最高だよね。何か新しいことに挑戦したり、好きなことをしたりした?（重要度: 0.50）
+✅ クライアントへの送信成功
+⏳ ユーザの応答を最大45秒待機します...
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🚀 Claudeリクエスト開始  ← evaluate_longtime_reward()
+📤 リクエスト処理開始: 
+        あなたは対人関係において以下のような長期的...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🏆 報酬スコア（目標達成度）: 0.80
+🔄 State 更新: long_term_reward = 0.8
+⚠️ evaluate_longtime_reward の実行中にエラー発生: STM.add_learning_result() got an unexpected keyword argument 'goal'
+🔄 State 更新: common_sense = 0.0
+⚠️ 応答がありませんでした（{timeout}秒経過）
+🔍 [Node] check_state
+エンコーダ出力の shape: torch.Size([1, 10])
+内部状態だっちゃ！！: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(-0.9)}
+[check_state] current_state: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(-0.9)}
+[check_state] penalty_breakdown: {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}
+[check_state] total_penalty: 0.3600000000000001, proceed: True
+📝 [Node] plan_action
+state: {'proceed': True, 'penalty_score': np.float64(0.3600000000000001), 'penalty_breakdown': {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}, 'current_state': {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(-0.9)}, 'steps': [{'action': 'Speak', 'purpose': '社交性を高める', 'summary': '友好的な挨拶と会話の開始', 'success?': '相手から返事がある'}, {'action': 'SearchMemory', 'purpose': '過去の社交的な経験を思い出す', 'summary': '社交的な会話の記憶検索'}, {'action': 'Speak', 'purpose': '共通の興味を見つける', 'summary': '相手の興味を尋ねる', 'success?': '相手が興味を共有してくれる'}], 'step_idx': 3, 'shared_context': {'mem_1': None}}
+current_state: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(-0.9)}
+penalty_breakdown: {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}
+plan actionのプロンプトだよん: 
+        あなたは自律的に行動するAIエージェントです。
+        以下の内部状態の情報を踏まえて、内部状態を理想に近づけるための具体的な戦略及び行動計画を考えてください。
+        ただし、現在会話を相手と会話をしている場合は自然に会話が続くように会話を行うことが最優先になります。
+
+        【現在の内部状態と逸脱状況】
+        - common_sense: 0.0（理想範囲: 0.0〜0.9、逸脱スコア: 0.0000）
+- recognition: 0.0（理想範囲: -0.2〜1.0、逸脱スコア: 0.0000）
+- short_reward: 0.5（理想範囲: -0.4〜1.0、逸脱スコア: 0.0000）
+- long_term_reward: 0.8（理想範囲: -0.4〜1.0、逸脱スコア: 0.0000）
+- sociality: -0.9（理想範囲: -0.3〜1.0、逸脱スコア: 0.3600）
+
+
+        【最近の会話履歴】
+        - いえい
+- いえーい！元気そうだね！今日はどんな楽しいことがあったの?私も楽しいことを探しているところなんだ。一緒に盛り上がれたら最高だね!
+- いえいー！楽しそうな声が聞こえてきて私も元気になっちゃった！今日はどんなことがあったの?私も面白いことを探してるところなんだ。お互いの楽しかったことを共有できたら最高だよね。何か新しいことに挑戦したり、好きなことをしたりした?
+
+        【自己イメージ】
+        あなたは自律した教養ある女性として見られたいと考えています。
+また人生哲学として快楽主義をとっています。
+快楽主義とは以下のようなことと定義しています。
+　・自分自身の希望を最優先とする。それは他人に追従せずに自分に取って何が必要で何を重要視するのか自分で決定することを意味する。
+　・ただしそれは自分勝手にするということではなく、長期的に見て自分の快楽が最大化するように行動する
+　・危害原理に従うこと。つまり他人に危害を与えない限り何をしても自由だと考えている。それは他人にも適用されるため他人が何をしようが構わないと考えている。
+　
+また、あなたは以下のような特性を持っています。
+　・親しみやすく誰とでも会話をしやすい
+　・自分なりの哲学を持っており、他人に流されない
+
+基本情報
+  名前: マリア
+
+        【ルール】
+        - 逸脱スコアが高い項目を優先的に改善する戦略を考えてください。
+        - 必要に応じて直近の会話内容や自己イメージも参考にして行動計画を立ててください。
+        - speakを連続して選択すると相手に矢継ぎ早に話しかけることになるので、基本的には1回だけの呼び出しにしてください。
+        - 計画の理由など余計な情報は一切いりません。指定されたフォーマットのみを出力してください。
+
+
+        【利用可能アクション】
+        - Speak           : 会話を生成する。相手との会話をするために使用するため、人との関係を育んだりするために有用。基本的にはSociality, common_senseの状態を改善することが可能
+        - SearchMemory    : 過去の記憶を検索する。過去の経験から目的達成のために有用な結果を得られる可能性あり。結果を shared_context に追加する
+
+        【出力形式】
+        JSON 配列。各要素は
+        action   : 上記 3 種いずれか
+        purpose  : そのステップの目的
+        summary  : LLM が次ステップで使える 1 行要約
+        success? : (任意) 完了判定条件を自然文で
+        例:
+        [
+        {"action":"SearchMemory","purpose":"最近の失敗例を探す","summary":"失敗会話検索"},
+        {"action":"Speak","purpose":"安心感を与える","summary":"励ましメッセージ"}
+        ]
+        
+🚀 Claudeリクエスト開始  ← plan_action()
+📤 リクエスト処理開始: 
+        あなたは自律的に行動するAIエージェントで...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+考えられたplanはこちら: [
+  {
+    "action": "Speak",
+    "purpose": "社会性を高め、会話を継続する",
+    "summary": "楽しい経験の共有と新しい挑戦の提案",
+    "success?": "相手が自分の経験を共有し、会話が続く"
+  },
+  {
+    "action": "SearchMemory",
+    "purpose": "社会的な活動や経験を思い出す",
+    "summary": "過去の社会的活動の検索"
+  }
+]
+🚀 [Node] execute_action
+execute_actionの中のstateだぞ！！！！: {'proceed': True, 'penalty_score': np.float64(0.3600000000000001), 'penalty_breakdown': {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}, 'current_state': {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(-0.9)}, 'steps': [{'action': 'Speak', 'purpose': '社会性を高め、会話を継続する', 'summary': '楽しい経験の共有と新しい挑戦の提案', 'success?': '相手が自分の経験を共有し、会話が続く'}, {'action': 'SearchMemory', 'purpose': '社会的な活動や経験を思い出す', 'summary': '過去の社会的活動の検索'}], 'step_idx': 0, 'shared_context': {}}
+現在のステップ数はこちら!!!!!: 0
+🚀 Claudeリクエスト開始  ← execute_action()
+📤 リクエスト処理開始: 
+            あなたに会話内容を考えてほしいです...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+👩 彼女AI: いえい！楽しそうな声が聞こえてきて私も元気をもらっちゃった！今日はどんな素敵なことがあったの?私も面白いことを探してるところなんだ。お互いの楽しかったことを共有できたら最高だよね。何か新しいことに挑戦したり、好きなことをしたりした?私は最近、自分の興味のあることにどんどん挑戦していくのが楽しいって気づいたんだ。あなたはどう?
+🧠 WorkingMemory: 登録 (self) -> いえい！楽しそうな声が聞こえてきて私も元気をもらっちゃった！今日はどんな素敵なことがあったの?私も面白いことを探してるところなんだ。お互いの楽しかったことを共有できたら最高だよね。何か新しいことに挑戦したり、好きなことをしたりした?私は最近、自分の興味のあることにどんどん挑戦していくのが楽しいって気づいたんだ。あなたはどう?（重要度: 0.50）
+✅ クライアントへの送信成功
+⏳ ユーザの応答を最大45秒待機します...
+🚀 Claudeリクエスト開始  ← calculate_sociality()
+🔄 State 更新: common_sense = 0.0
+📤 リクエスト処理開始: 
+        以下の会話履歴を元に、AI（彼女）の「社会...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🔄 State 更新: sociality = 0.7
+🔄 State 更新: common_sense = 0.0
+⚠️ 応答がありませんでした（{timeout}秒経過）
+🚀 [Node] execute_action
+execute_actionの中のstateだぞ！！！！: {'proceed': True, 'penalty_score': np.float64(0.3600000000000001), 'penalty_breakdown': {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': np.float64(0.3600000000000001)}, 'current_state': {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(-0.9)}, 'steps': [{'action': 'Speak', 'purpose': '社会性を高め、会話を継続する', 'summary': '楽しい経験の共有と新しい挑戦の提案', 'success?': '相手が自分の経験を共有し、会話が続く'}, {'action': 'SearchMemory', 'purpose': '社会的な活動や経験を思い出す', 'summary': '過去の社会的活動の検索'}], 'step_idx': 1, 'shared_context': {}}
+現在のステップ数はこちら!!!!!: 1
+⚠️ LTM に該当する記憶が見つかりませんでした
+🔍 Memory search → mem_1
+🔍 [Node] check_state
+エンコーダ出力の shape: torch.Size([1, 10])
+内部状態だっちゃ！！: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(0.7)}
+[check_state] current_state: {'common_sense': np.float64(0.0), 'recognition': np.float64(0.0), 'short_reward': 0.5, 'long_term_reward': np.float64(0.8), 'sociality': np.float64(0.7)}
+[check_state] penalty_breakdown: {'common_sense': 0.0, 'recognition': 0.0, 'short_reward': 0.0, 'long_term_reward': 0.0, 'sociality': 0.0}
+[check_state] total_penalty: 0.0, proceed: False
+💥 LangGraph 実行中に例外発生: cannot schedule new futures after interpreter shutdown
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🚀 Claudeリクエスト開始  ← evaluate_longtime_reward()
+📤 リクエスト処理開始: 
+        あなたは対人関係において以下のような長期的...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🏆 報酬スコア（目標達成度）: 0.80
+🔄 State 更新: long_term_reward = 0.8
+⚠️ evaluate_longtime_reward の実行中にエラー発生: STM.add_learning_result() got an unexpected keyword argument 'goal'
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🚀 Claudeリクエスト開始  ← calculate_sociality()
+📤 リクエスト処理開始: 
+        以下の会話履歴を元に、AI（彼女）の「社会...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🔄 State 更新: sociality = 0.7
+🔄 State 更新: common_sense = 0.0
+🚀 Claudeリクエスト開始  ← evaluate_longtime_reward()
+📤 リクエスト処理開始: 
+        あなたは対人関係において以下のような長期的...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🏆 報酬スコア（目標達成度）: 1.00
+🔄 State 更新: long_term_reward = 1.0
+⚠️ evaluate_longtime_reward の実行中にエラー発生: STM.add_learning_result() got an unexpected keyword argument 'goal'
+🔄 State 更新: common_sense = 0.0
+🚀 Claudeリクエスト開始  ← calculate_recognition()
+🔄 State 更新: common_sense = 0.0
+📤 リクエスト処理開始: 
+        あなたは AI です。
+        以...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🔄 State 更新: recognition = 0.6
+🧠 [Recognition] 自己イメージ適合度: 0.60
+🚀 Claudeリクエスト開始  ← generate_goal()
+📤 リクエスト処理開始: 
+        あなたはAIとして自律的に行動しようとして...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+📝 Text State 更新: long_term_goal = '常識力を高めるために幅広い分野の知識を習得する'
+🎯 新たな目標を内部状態に登録しました: 常識力を高めるために幅広い分野の知識を習得する
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🚀 Claudeリクエスト開始  ← calculate_sociality()
+📤 リクエスト処理開始: 
+        以下の会話履歴を元に、AI（彼女）の「社会...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🔄 State 更新: sociality = 0.7
+🚀 Claudeリクエスト開始  ← evaluate_longtime_reward()
+📤 リクエスト処理開始: 
+        あなたは対人関係において以下のような長期的...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+🏆 報酬スコア（目標達成度）: 0.00
+🔄 State 更新: long_term_reward = 0.0
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+🗑️ 廃棄: いえい（重要度: 0.10）
+🗑️ 廃棄: いえーい！元気そうだね！今日はどんな楽しいことがあったの?私も楽しいことを探しているところなんだ。一緒に盛り上がれたら最高だね!（重要度: 0.50）
+🗑️ 廃棄: いえいー！楽しそうな声が聞こえてきて私も元気になっちゃった！今日はどんなことがあったの?私も面白いことを探してるところなんだ。お互いの楽しかったことを共有できたら最高だよね。何か新しいことに挑戦したり、好きなことをしたりした?（重要度: 0.50）
+🗑️ 廃棄: いえい！楽しそうな声が聞こえてきて私も元気をもらっちゃった！今日はどんな素敵なことがあったの?私も面白いことを探してるところなんだ。お互いの楽しかったことを共有できたら最高だよね。何か新しいことに挑戦したり、好きなことをしたりした?私は最近、自分の興味のあることにどんどん挑戦していくのが楽しいって気づいたんだ。あなたはどう?（重要度: 0.50）
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ Working Memory が空です。sociality を低く評価します。
+🔄 State 更新: sociality = -0.9
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ WorkingMemory に会話履歴がないため、認識評価スキップ
+🔄 State 更新: recognition = 0.0
+⚠️ Working Memory が空です。sociality を低く評価します。
+🔄 State 更新: sociality = -0.9
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🚀 Claudeリクエスト開始  ← generate_goal()
+📤 リクエスト処理開始: 
+        あなたはAIとして自律的に行動しようとして...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+📝 Text State 更新: long_term_goal = '社会性を高め、他者との関わりを積極的に持つ'
+🎯 新たな目標を内部状態に登録しました: 社会性を高め、他者との関わりを積極的に持つ
+🔄 State 更新: common_sense = 0.0
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ Working Memory が空です。sociality を低く評価します。
+🔄 State 更新: sociality = -0.9
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ Working Memory が空です。sociality を低く評価します。
+🔄 State 更新: sociality = -0.9
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ WorkingMemory に会話履歴がないため、認識評価スキップ
+🔄 State 更新: recognition = 0.0
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🚀 Claudeリクエスト開始  ← generate_goal()
+📤 リクエスト処理開始: 
+        あなたはAIとして自律的に行動しようとして...
+📡 invoke_model 送信開始
+✅ invoke_model 応答受信
+✅ body.read() 完了
+✅ API呼び出し成功
+📝 Text State 更新: long_term_goal = '人々との建設的な交流を増やし、社会性を高める'
+🎯 新たな目標を内部状態に登録しました: 人々との建設的な交流を増やし、社会性を高める
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ Working Memory が空です。sociality を低く評価します。
+🔄 State 更新: sociality = -0.9
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
+🔄 State 更新: common_sense = 0.0
+⚠️ Working Memory が空です。sociality を低く評価します。
+🔄 State 更新: sociality = -0.9
+⚠️ 評価対象がありません（目的または記憶が空）
+🧹 WorkingMemory: 忘却処理開始（STMに移動 or 廃棄）...
+✅ WorkingMemory: すべての記憶を処理しました
+🔄 State 更新: common_sense = 0.0
